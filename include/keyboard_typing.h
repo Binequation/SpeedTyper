@@ -7,6 +7,11 @@
 #include <ctype.h>
 #include <stdlib.h>
 
+#define MAX_BUFFER_SIZE 2056 /* Max amount of characters in texts */
+#define EASY_FILE_PATH   "src/difficulties/easy.txt"   /* Path to easy-level file text   */
+#define MEDIUM_FILE_PATH "src/difficulties/medium.txt" /* Path to medium-level file text */
+#define HARD_FILE_PATH   "src/difficulties/hard.txt"   /* Path to hard-level file text   */
+
 /*
  * @brief This function load text with pre-loaded text sample
  *
@@ -17,7 +22,7 @@
  * medium level: https://10fastfingers.com/text/236000-tough-typind-test-MEDIUM-LENGTH
  * hard level: https://10fastfingers.com/text/3623-A-very-hard-typing-test-text
  */
-void choose_difficulty(const FILE *filename);
+int choose_difficulty(const char *filename);
 
 /*
  * @brief This function calculate how accurate user was

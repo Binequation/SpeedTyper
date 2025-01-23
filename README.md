@@ -47,3 +47,6 @@ gcc -o keyboard_typer keyboard_typer.c
 ## How to use
 
 Will appear soon =)
+
+## Future Plans
+- Any file to race
