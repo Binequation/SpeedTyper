@@ -1,0 +1,39 @@
+# Compiled object files
+*.o
+*.obj
+
+# Executable files
+*.exe
+*.out
+
+# Debug files
+*.dSYM
+*.pdb
+
+# Shared libraries
+*.so
+*.dll
+*.dylib
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# IDE specific files
+*.cproject
+*.project
+*.vscode
+*.idea
+*.vs
+*.suo
+*.user
+
+# Build artifacts
+build/
+Debug/
+Release/
+*.log
+
+
+
