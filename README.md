@@ -2,6 +2,13 @@
 
 A console-based keyboard speed typing test application written in C.  This program allows users to test their typing speed and accuracy.:w
 
+## Table of Content
+
+1. [Features](https://github.com/Binequation/SpeedTyper?tab=readme-ov-file#features)
+2. [Requirements](https://github.com/Binequation/SpeedTyper?tab=readme-ov-file#requirements)
+3. [How to install](https://github.com/Binequation/SpeedTyper?tab=readme-ov-file#how-to-install)
+4. [How to use](https://github.com/Binequation/SpeedTyper?tab=readme-ov-file#how-to-use)
+
 ## Features
 
 * **Multiple Text Options:** Choose from a variety of pre-loaded text samples of varying difficulty levels (e.g., short sentences, paragraphs, longer passages).  More texts can be easily added.
