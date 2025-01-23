@@ -38,6 +38,8 @@ char *choose_difficulty(const char *filename)
 void typing_test(const char *text)
 {
     extern int corr_char;
+    extern double wpm;
+    extern double accuracy;
     extern double time_taken;
 
     clock_t start_timer = clock(); /* Timer starts */
@@ -67,8 +69,8 @@ void typing_test(const char *text)
 
 void print_summary(
         const double accuracy, 
-        const double typing_speed,
-        const double wpm
+        const double wpm,
+        const double time_taken
 )
 {
     printf("\n----RESULTS OF TYPING----\n"
