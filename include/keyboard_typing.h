@@ -12,6 +12,10 @@
  *
  * @param filename File that will be loaded
  *
+ * References: 
+ * easy level: https://10fastfingers.com/text/6053-Easy-text-to-type
+ * medium level: https://10fastfingers.com/text/236000-tough-typind-test-MEDIUM-LENGTH
+ * hard level: https://10fastfingers.com/text/3623-A-very-hard-typing-test-text
  */
 void choose_difficulty(const FILE *filename);
 
