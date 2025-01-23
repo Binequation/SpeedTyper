@@ -1,6 +1,6 @@
 # Description 
 
-A console-based keyboard speed typing test application written in C.  This program allows users to test their typing speed and accuracy.:w
+A console-based keyboard speed typing test application written in C.  This program allows users to test their typing speed and accuracy.
 
 ## Table of Content
 

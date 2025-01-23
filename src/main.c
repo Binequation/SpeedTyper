@@ -12,13 +12,13 @@ int main(void)
     scanf("%c", &diff_choice);
     switch (diff_choice) {
         case '1': 
-            choose_difficulty(EASY_FILE_PATH);
+            typing_test(choose_difficulty(EASY_FILE_PATH));
             break;
         case '2':
-            choose_difficulty(MEDIUM_FILE_PATH);
+            typing_test(choose_difficulty(MEDIUM_FILE_PATH));
             break;
         case '3':
-            choose_difficulty(HARD_FILE_PATH);
+            typing_test(choose_difficulty(HARD_FILE_PATH));
             break;
         default:
             perror("No such selection!\n");

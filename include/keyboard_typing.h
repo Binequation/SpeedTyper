@@ -5,6 +5,7 @@
 #include <stdio.h>
 #include <string.h>
 #include <ctype.h>
+#include <time.h>
 #include <stdlib.h>
 
 #define MAX_BUFFER_SIZE 2056 /* Max amount of characters in texts */
@@ -18,20 +19,14 @@
  * @param filename File that will be loaded
  *
  * References: 
+ *
  * easy level: https://10fastfingers.com/text/6053-Easy-text-to-type
+ *
  * medium level: https://10fastfingers.com/text/236000-tough-typind-test-MEDIUM-LENGTH
+ *
  * hard level: https://10fastfingers.com/text/3623-A-very-hard-typing-test-text
  */
-int choose_difficulty(const char *filename);
-
-/*
- * @brief This function calculate how accurate user was
- *
- * @param correct_words Amount of correct words entered by user
- *
- * @param wrong_words Amount of incorrent words entered by user
- */
-double accuracy_calculate(const size_t correct_words, const size_t incorrect_words);
+char *choose_difficulty(const char *filename);
 
 /* 
  * @brief This function prints all stats of user's typing
@@ -43,10 +38,17 @@ double accuracy_calculate(const size_t correct_words, const size_t incorrect_wor
  * @param typing_speed How fast user was ont the race
  */
 void print_summary(
-    const FILE *filename,
-    const double accuracy,
-    const double typing_speed
+        const double accuracy, 
+        const double typing_speed,
+        const double wpm
 );
+
+/*
+ * @brief This function start a race
+ *
+ * @param text Text that user will type
+ */
+void typing_test(const char *text);
 
 
 #endif
